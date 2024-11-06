@@ -1,0 +1,10 @@
+train: /root/seg/datasets/bubbleplume/train.txt  # train images (relative to 'path') 118287 images
+val: /root/seg/datasets/bubbleplume/test.txt  # val images (relative to 'path') 5000 images
+test: /root/seg/datasets/bubbleplume/val.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: gas plume
+
+
+
